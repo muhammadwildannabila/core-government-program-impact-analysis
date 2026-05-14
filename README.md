@@ -126,16 +126,51 @@ Executive Dashboard (Streamlit)
 # 🖼️ Additional Insights
 
 ## 📊 Program Impact Distribution
-![Program Impact Distribution](assets/program-impact-distribution.png)
+![Program Impact Distribution](assets/impact-category-distribution.png)
+
+> Distribution of government programs across Low Impact, Moderate Impact, and High Impact categories.
+
+---
 
 ## 🎯 Effectiveness Score Distribution
 ![Effectiveness Score Distribution](assets/effectiveness-score-distribution.png)
 
+> Histogram showing the overall distribution of program effectiveness scores centered around the average value.
+
+---
+
 ## 🏛️ Department Performance Ranking
 ![Department Performance Ranking](assets/department-performance-ranking.png)
 
-## 💰 Budget Allocation vs Effectiveness
-![Budget Efficiency Analytics](assets/budget-vs-effectiveness.png)
+> Comparative analysis of average effectiveness scores across government departments.
+
+---
+
+## 💰 Budget Allocation vs Program Effectiveness
+![Budget Allocation vs Program Effectiveness](assets/budget-vs-effectiveness.png)
+
+> Bubble chart illustrating that larger budgets do not necessarily guarantee better outcomes.
+
+---
+
+## 📈 ROI Score Distribution by Impact Category
+![ROI Score Distribution by Impact Category](assets/roi-score-distribution.png)
+
+> Box plot comparing return on investment across impact categories.
+
+---
+
+## 🤖 Model Performance Comparison
+![Model Performance Comparison](assets/model-performance-comparison.png)
+
+> Comparative evaluation of classification and regression models.
+
+---
+
+## 🧩 Confusion Matrix — Random Forest Classifier
+![Confusion Matrix — Random Forest](assets/impact-confusion-matrix.png)
+
+> Near-perfect classification results for High Impact and Moderate Impact programs.
 
 ---
 
@@ -168,7 +203,8 @@ This platform enables government institutions to:
 - Identify high-impact programs
 - Optimize public budget allocation
 - Benchmark departmental performance
-- Simulate future program outcomes
+- Compare district-level outcomes
+- Simulate future program effectiveness
 - Strengthen evidence-based policymaking
 - Improve accountability and public value creation
 
@@ -209,7 +245,14 @@ core-government-program-impact-analysis/
 │   └── effectiveness_regressor.pkl
 ├── notebooks/
 ├── assets/
-│   └── dashboard-overview.png
+│   ├── dashboard-overview.png
+│   ├── impact-category-distribution.png
+│   ├── effectiveness-score-distribution.png
+│   ├── department-performance-ranking.png
+│   ├── budget-vs-effectiveness.png
+│   ├── roi-score-distribution.png
+│   ├── model-performance-comparison.png
+│   └── impact-confusion-matrix.png
 ├── requirements.txt
 ├── README.md
 └── .gitignore
