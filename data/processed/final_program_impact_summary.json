@@ -1,0 +1,16 @@
+{
+    "total_programs": 10000,
+    "total_budget_allocated": 51788261574851.0,
+    "average_effectiveness_score": 80.92,
+    "average_roi_score": 80.92,
+    "average_satisfaction_score": 4.09,
+    "average_budget_utilization": 87.33,
+    "high_impact_program_rate": 22.8,
+    "top_program": "Environmental Sustainability",
+    "top_department": "Dinas Lingkungan Hidup",
+    "top_district": "Bumiaji",
+    "government_program_status": "Strong Performance",
+    "strategic_recommendations": [
+        "Scale high-performing programs and redesign low-impact initiatives."
+    ]
+}
